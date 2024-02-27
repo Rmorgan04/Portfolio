@@ -1,0 +1,205 @@
+/* GLOBAL */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: whitesmoke;
+    width: 60%;
+    margin: 0 auto;
+}
+
+/* HEADER AND NAV START */
+
+header {
+    margin-top: 3rem;
+    text-align: center;
+    font-family: "Della Respira", serif;
+}
+
+.name {
+    margin-bottom: .7rem;
+    font-size: 50px;
+}
+
+.title {
+    font-size: 27px;
+    margin: 1rem 0 2.5rem;
+}
+
+nav {
+    margin-top: .5rem;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li {
+    padding: 1em 2em;
+    list-style: none;
+}
+
+li a{
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #FFFFFFE6;
+}
+
+/* HEADER AND NAV END */
+
+/* PROJECT SECTION START */
+
+section {
+    text-align: center;
+    margin: 1.5rem 0;
+}
+
+.section-header {
+    margin: 3rem 0 2.5rem;
+    text-align: center;
+    font-family: "Della Respira", serif;
+    text-decoration: underline;
+    font-size: 35px;
+}
+
+
+.about-text {
+    font-size: 25px;
+    text-align: left;
+    font-family: "Lato", sans-serif;
+}
+
+.project-section-container{
+   display: grid;
+   grid-template-columns: auto auto;
+   gap: 10px;
+}
+
+.projects-container {
+    display: flex;
+    justify-content: center;
+}
+
+.image-container {
+    height: 325px;
+    width: 325px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-container img {
+    width: 260px;
+    height: 260px;
+    border-radius: 50%;
+    border: 2px solid #AAAAAA;
+    transition: .5s ease-in-out;
+}
+
+.description-container {
+    font-size: 25px;
+    width: 400px;
+    height: 300px;
+    text-align: left;
+    margin: auto 0 auto 3rem;
+    font-family: "Lato", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.description-container h3 {
+    margin-bottom: 1rem;
+}
+
+.description-header {
+    font-weight: 600;
+    color: #AAAAAA;
+    text-decoration: none;
+    transition: .5s ease-in-out;
+    display: inline-block;
+}
+
+.description-container a:hover {
+    transform: scale(1.05);
+    color: black;
+}
+
+.github-logo {
+    height: 25px;
+    width: 25px;
+    margin-left: 1.5rem;
+    transition: .5s ease-in-out;
+    display: inline-block;
+}
+
+.github-logo:hover {
+    transform: scale(1.25);
+}
+
+.image-container img:hover {
+    border-radius: 15px;
+    height: 300px;
+    width: 300px;
+    box-shadow: 0 0 15px 0 #AAAAAA;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    font-family: "Lato", sans-serif;
+}
+
+input {
+    height: 40px;
+    font-size: 25px;
+    width: 50%;
+    margin: 0 auto 1rem;
+    border-radius: 5px;
+    padding: .5rem 1rem;    
+}
+
+textarea {
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: .5rem 1rem;
+}
+
+button {
+    font-size: 25px;
+    padding: .5rem;
+    width: min-content;
+    border-radius: 5px;
+    margin: 1rem auto;
+    font-family: "Della Respira", serif;
+    cursor: pointer;
+    transition: .5s ease-in-out;
+}
+
+button:hover {
+    transform: scale(1.10);
+}
+
+footer {
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    margin: 2rem 0;
+    font-family: "Della Respira", serif;
+}
+
+span {
+    color: #6699CC;
+    text-decoration: underline;
+}
