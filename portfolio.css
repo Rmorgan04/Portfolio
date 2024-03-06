@@ -121,6 +121,12 @@ section {
     margin-bottom: 1rem;
 }
 
+.under-development {
+    font-size: 20px;
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
 .description-header {
     font-weight: 600;
     color: #AAAAAA;
@@ -202,4 +208,130 @@ footer {
 span {
     color: #6699CC;
     text-decoration: underline;
+}
+
+/* Media Queries */
+
+@media only screen and (width < 430px) {
+    body{
+        width: 100vw;
+    }
+
+    .name {
+        font-size: 35px;
+    }
+
+    .title {
+        font-size: 20px;
+    }
+    
+    .about-text {
+        font-size: 12px;
+    }
+
+    .section-header {
+        font-size: 24px;
+        margin: 1rem 0;
+    }
+
+    .description-header {
+        font-size: 24px
+    }
+
+    .description-container {
+        font-size: 15px;
+        width: 90%;
+        margin: 0;
+        height: 150px;
+    }
+
+    .github-logo {
+        width: 20px;
+        height: 20px;
+        margin-left: .5rem;
+    }
+
+    .under-development {
+        font-size: 15px;   
+    }
+
+    input, textarea {
+        width: 100%;
+        font-size: 15px;
+    }
+
+    footer {
+        font-size: 15px;
+    }
+
+}
+
+@media only screen and (min-width: 431px) and (max-width: 750px) {
+    .name {
+        font-size: 40px;
+    }
+
+    .title {
+        font-size: 25px;
+    }
+    
+    .about-text {
+        font-size: 18px;
+    }
+
+    .section-header {
+        font-size: 29px;
+        margin: 1rem 0;
+    }
+
+    .description-header {
+        font-size: 27px
+    }
+
+    .description-container {
+        font-size: 20px;
+        width: 90%;
+        margin: 0;
+        height: 200px;
+    }
+
+    .github-logo {
+        width: 20px;
+        height: 20px;
+    }
+
+    .under-development {
+        font-size: 22px;
+        margin-top: .5rem;
+        text-align: left;
+    }
+
+    input, textarea {
+        width: 100%;
+        font-size: 20px;
+    }
+
+    footer {
+        font-size: 20px;
+    }
+
+}
+
+@media only screen and (max-width: 900px) {
+    body {
+        width: 75%
+    }
+
+    .image-container {
+        display: none;
+    }
+
+
+    input {
+        width: 80%;
+    }
+
+    textarea {
+        width: 80%;
+    }
 }
